@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Fatih Erikli</title>
+    <meta name="google-site-verification" content="2pM7gHII87-vNcarjiSE6nap5gUZS5BUmtNxZYdxbjo" />
+    <style>
+      body {
+        font-family: sans-serif;
+        background: black;
+        margin: 0 0 0 0;
+      }
+      .align-three-photos:first-child {
+        margin-top: -2px;
+      }
+      .align-three-photos {
+        overflow: hidden;
+        margin-top: -5px;
+      }
+      .align-three-photos > div {
+        width: calc(100vw / 3);
+        float: left;
+        box-shadow: 10px 10px 90px 10px black;
+      }
+      .photos-row img:first-child {
+        /*padding-left: 0;*/
+      }
+      .photos-row img {
+        height: calc(100vh + 4px);
+      }
+      .about-me {
+        position: absolute;
+        font-size: 6em;
+        bottom: 0;
+      }
+      .about-me h3 {
+        font-weight: normal;
+        padding-left: 10px;
+        font-size: 120px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .about-me p {
+        margin-top: 0;
+        padding: 10px;
+        padding-left: 20px;
+        font-size: 18px;
+        padding-top: 0;
+      }
+      footer {
+        text-align: center;
+        padding: 20px 20px 30px;
+        color: gray;
+      }
+      footer img {
+        width: calc(100vw / 1.5);
+        margin-bottom: 25px;
+      }
+
+      a {
+        color: white;
+      }
+
+      a:hover {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="photos-row align-three-photos">
+      <div>
+        <img src="berlin-central-station.jpg" />
+        <div class="about-me">
+          <h3>Fatih<br />Erikli</h3>
+          <p>
+            Photography, Music (I listen)<br />
+            Polyglot (English, Polish, Dutch—Beginner)<br />
+            Athlete — Cycling<br />
+            Software Development <a href="/fatih-erikli-cv.pdf">resume</a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="vertikal.jpg" />
+      </div>
+      <div>
+        <img
+          style="z-index: 9"
+          onmouseover="
+    "
+          src="krakow-after-workout.jpg"
+        />
+      </div>
+    </div>
+
+    <div class="photos-row align-three-photos">
+      <h4 style="position: absolute; margin: 20px 10px 0 7px; font-size: 4em; text-align: justify;">Reproduction of Malevich's 18th Suprematist Construction</h4>
+      <div><img src="malevich-1.png" /></div>
+      <div><img src="malevich-2.png" /></div>
+      <div><img src="malevich-3.png" /></div>
+    </div>
+
+    <div class="photos-row align-three-photos">
+      <div>
+        <div id="ads" style="display: none; position: absolute">
+          <div
+            style="
+              position: absolute;
+              top: 40vh;
+              left: 18vw;
+              font-size: 40px;
+              color: white;
+            "
+          >
+            Nice<br />looking<br />woman<br />glaring<br />at<br />you.
+          </div>
+        </div>
+        <img src="ad-space-black-and-white.png" />
+      </div>
+
+      <div>
+        <img
+          src="ad-space-fill.png"
+          id="ad-space-fill"
+          style="
+            left: 0;
+            pointer-events: none;
+            position: absolute;
+            display: none;
+          "
+        />
+        <img src="krakow-church-winter.png" />
+      </div>
+      <div>
+        <img
+          src="krakow-tyniec.jpg"
+          onmouseover="this.src='krakow-workout-route-daylight-embedded-color-profile.png'"
+          onmouseout="this.src='krakow-after-workout.png';"
+        />
+      </div>
+    </div>
+
+    <div class="photos-row align-three-photos">
+      <div><img src="alexandrplatz.jpg" /></div>
+      <div><img src="krakow-lake-in-a-forest.jpg" /></div>
+      <div><img src="warsaw.jpg" /></div>
+    </div>
+
+    <footer>
+      All rights reserved 2020-2021.
+    </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFND1754VZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KFND1754VZ');
+    </script>
+  </body>
+</html>
